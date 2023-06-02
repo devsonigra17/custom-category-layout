@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-right" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="main">
+            <!-- <block class="Magento\Framework\View\Element\Template" name="test_file" template="Dev_Category::test.phtml"/> -->
+        </referenceBlock>
+        <referenceBlock name="copyright" remove="true"/>
+        <referenceBlock name="copyright" remove="false">
+            <block class="Magento\Framework\View\Element\Template" name="test_file" template="Dev_Category::test.phtml"/>
+        </referenceBlock>
+            <!-- <block class="Magento\Framework\View\Element\Template" name="test_file" template="Dev_Category::test.phtml"/>
+        </referenceBlock> -->
+        <!-- <referenceBlock name="page.top" remove="true" /> -->
+        <!-- <referenceBlock name="header-wrapper" remove="true" /> -->
+        <!-- <referenceBlock name="header.panel" remove="true" /> -->
+        <!-- <referenceBlock name="sidebar.main" remove="true" /> -->
+        <!-- <referenceBlock name="sidebar.additional" remove="true" /> -->
+        <!-- <referenceBlock name="content" remove="true" /> -->
+        <!-- <referenceBlock name="body" remove="true" /> -->
+    </body>
+</page>
